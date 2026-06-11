@@ -65,9 +65,17 @@ offline** (network, keys, and databases sit behind interfaces with deterministic
 #### Systems & infrastructure
 | Project | Stack | What it is |
 |---------|-------|------------|
+| [**roomcast**](https://github.com/KE-NETIZEN-OOPS/roomcast) | Go · TS | Self-hostable real-time collaboration engine: rooms, presence, and a conflict-free (LWW-CRDT) shared-state core over WebSockets, with a pluggable broker for multi-node scale and a typed TypeScript client SDK. |
 | [**conveyor**](https://github.com/KE-NETIZEN-OOPS/conveyor) | Go | Race-tested job queue: worker pool, exponential-backoff retries, dead-letter queue, REST API, Prometheus metrics, in-memory or bbolt backend. |
 | [**quotaguard**](https://github.com/KE-NETIZEN-OOPS/quotaguard) | Rust | Composable rate-limiting library — token bucket, sliding window, and GCRA behind one trait, with an injectable clock for deterministic tests. |
 | [**tenantkit**](https://github.com/KE-NETIZEN-OOPS/tenantkit) | TypeScript | Multi-tenant SaaS starter: a pure, tested domain core (orgs, RBAC, expiring invites, audit log) plus Next.js and Postgres row-level-security policies. |
+
+#### Automation & data tooling
+| Project | Stack | What it is |
+|---------|-------|------------|
+| [**job-hunt-copilot**](https://github.com/KE-NETIZEN-OOPS/job-hunt-copilot) | Python | AI job-search copilot: ingests postings from public feeds, scores fit against your resume (lexical or LLM), tracks applications, and drafts tailored cover letters. |
+| [**leadforge**](https://github.com/KE-NETIZEN-OOPS/leadforge) | TypeScript | Lead qualification & enrichment engine over data you own — normalize, dedupe, enrich (pluggable provider), and score into A/B/C tiers. Not a scraper. |
+| [**x-signal**](https://github.com/KE-NETIZEN-OOPS/x-signal) | Go | Rate-limited ETL & signal pipeline over the official X API v2 (with a public RSS fallback): normalize, store, and aggregate post signals, ToS-respecting. |
 
 #### Security
 | Project | Stack | What it is |
