@@ -1,6 +1,6 @@
 # Abed Kamau
 
-**Software & AI Engineer** — I design and ship production systems across AI, fintech, and SaaS, and own them end to end: architecture, implementation, containerization, deployment, and ongoing maintenance.
+**Software & AI Engineer** — I design and ship production systems across AI, fintech, Blockchain and SaaS, and own them end to end: architecture, implementation, containerization, deployment, and ongoing maintenance.
 
 My work spans multi-agent AI frameworks, real-time and distributed infrastructure, trading and on-chain analytics, and multi-tenant platforms. I optimize for correctness and longevity — small, well-bounded services with explicit interfaces, comprehensive offline test suites, CI on every push, and documentation a teammate can actually use.
 
